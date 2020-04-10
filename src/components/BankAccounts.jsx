@@ -19,8 +19,8 @@ const BankAccounts = ({ accounts }) => {
   });
   return (
     <div className="container bank-accounts-container">
-      <div className="columns">
-          {bankAccounts}
+      <div className="columns" style={{ flexWrap: "wrap" }}>
+        {bankAccounts}
       </div>
     </div>
   );
