@@ -11,3 +11,11 @@ export const deleteAccount = (id) => {
         id
     }
 }
+
+export const editAccount = (id, account) => {
+    return {
+        type: 'EDIT_ACCOUNT',
+        id,
+        account
+    }
+}
