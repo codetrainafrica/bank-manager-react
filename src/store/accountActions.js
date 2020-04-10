@@ -4,3 +4,10 @@ export const addAccount = (account) => {
         account
     }
 }
+
+export const deleteAccount = (id) => {
+    return {
+        type: 'DELETE_ACCOUNT',
+        id
+    }
+}
