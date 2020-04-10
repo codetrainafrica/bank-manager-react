@@ -1,11 +1,11 @@
 import React from 'react';
+import bulma from 'bulma';
+import BankAccountsPage from './BankAccountsPage';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>My app</h1>
-    </div>
+    <BankAccountsPage />
   );
 }
 
