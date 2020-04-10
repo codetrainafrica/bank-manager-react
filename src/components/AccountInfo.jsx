@@ -8,10 +8,10 @@ const AccountInfo = ({
   account_number,
   bank_name,
   bank_branch,
-  editAccount,
+  deleteAccount
 }) => {
-  const removeAccount = (id) => {
-    editAccount(id);
+  const removeAccount = () => {
+    deleteAccount(id);
   };
   return (
     <div className="card">
