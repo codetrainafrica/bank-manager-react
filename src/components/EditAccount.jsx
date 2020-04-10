@@ -28,7 +28,7 @@ class EditAccount extends Component {
       account_number: "",
       account_type: "",
       bank_name: "",
-      bank_branch: ""
+      bank_branch: "",
     });
     this.props.history.push("/");
   };
@@ -40,7 +40,9 @@ class EditAccount extends Component {
       <div className="container add-account-container">
         <div className="columns">
           <div className="column is-6 is-offset-3">
-            <h4 className="has-text-centered is-size-4">UPDATE ACCOUNT INFORMATION</h4>
+            <h4 className="has-text-centered is-size-4">
+              UPDATE ACCOUNT INFORMATION
+            </h4>
             <form onSubmit={this.handleSubmit}>
               <div className="field">
                 <label className="label">Bank name</label>
@@ -140,7 +142,9 @@ class EditAccount extends Component {
 }
 
 const mapStateToProps = (state, ownProps) => ({
-    account: state.accounts.find(account => account.id === ownProps.match.params.id)
+  account: state.accounts.find(
+    (account) => account.id === ownProps.match.params.id
+  ),
 });
 
 const mapDispatchToProps = {
