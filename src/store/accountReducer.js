@@ -33,6 +33,11 @@ const accountReducer = (state = initialState, action) => {
         bank_branch: action.account.bank_branch,
       };
       return { ...state, accounts: [...state.accounts, newAccount] };
+    case "DELETE_ACCOUNT":
+      const filteredAccounts = state.accounts.filter(
+        (account) => account.id !== action.id
+      );
+      return {...state, accounts: filteredAccounts}
     default:
       return state;
   }
