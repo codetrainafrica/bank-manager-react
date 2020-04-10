@@ -3,11 +3,15 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="container">
-      <nav className="navbar is-light" role="navigation" aria-label="main navigation">
+    <nav
+      className="navbar is-light"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div className="container">
         <div className="navbar-brand">
           <NavLink className="navbar-item" to="/">
-            &nbsp;&nbsp; <strong>ACCOUNT MANAGER</strong>
+            <strong>ACCOUNT MANAGER</strong>
           </NavLink>
           <a
             role="button"
@@ -34,7 +38,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <NavLink className="button is-primary" to="/signup">
+              <NavLink className="button is-info" to="/signup">
                 <strong>Sign up</strong>
               </NavLink>
               <NavLink className="button is-light" to="/login">
@@ -43,8 +47,8 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
