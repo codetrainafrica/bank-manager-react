@@ -13,7 +13,8 @@ This repository already has all the boilerplate with the UI developed. However n
 all the CRUD functionality using react redux for shared state management.
 
 ## instructions
-- Clone the project locally
+- Fork your own copy of the repo
+- Clone the repo locally
 - Run yarn install (or npm install) to install project dependencies
 - Open project in your text editor
 - Create a new branch where you'll commit your changes
