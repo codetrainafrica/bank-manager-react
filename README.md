@@ -1,13 +1,13 @@
-# contact-manager-react
+# Bank-account-manager-react
 The purpose of this project is to test your understanding on all the concepts we've covered so far in the React and Redux classes.
 It will also put your git skills to test as you'll be collaborating with a partner using git.
 
 ## project summary
-Contact manager app bootstraped with Create React App that has full CRUD functionality for
-- Adding contacts
-- Seeing all contacts added
-- Editing contacts
-- Deleting contacts
+Bank account manager app bootstraped with Create React App that has full CRUD functionality for
+- Adding accounts
+- Seeing all accounts added
+- Editing accounts
+- Deleting accounts
 
 This repository already has all the boilerplate with the UI developed. However none of the full functionalities are working yet. Your job is to complete 
 all the CRUD functionality using react redux for shared state management.
